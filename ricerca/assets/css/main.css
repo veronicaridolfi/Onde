@@ -3,10 +3,10 @@
 }
 
 body {
-	background-color: rgb(228, 58, 58); /* white, #FFFFFF */
+	background-color: rgb(220, 220, 220); /* white, #FFFFFF */
 	padding: 2em;
 	margin: 0;
-	font-family: "Jost", sans-serif;
+	font-family: "Plus+Jakarta+Sans", sans-serif;
 	font-optical-sizing: auto;
 	font-weight: 400;
 	font-style: normal;
@@ -16,7 +16,7 @@ body {
 
 p {
 	margin: 0 0 1em 0;
-	max-width: 30em;
+	max-width: 100em;
 }
 
 h1 {
@@ -28,6 +28,7 @@ h1 {
 h4 {
 	margin: 0;
 	margin-bottom: 1em;
+	color: rgb(255, 0, 0);
 }
 
 iframe {
@@ -37,14 +38,17 @@ iframe {
 	width: 100%;
 }
 
+
 header,
 section {
+	display: grid;
+	grid-template-columns: 1fr 4fr;
 	margin-bottom: 2em;
 	padding-top: 0.25em;
 }
 
 .filetto {
-	border-top: solid 2px rgb(255, 0, 0);
+	border-top: solid 4px rgb(255, 0, 0);
 }
 
 .titolo-sezione {
@@ -63,6 +67,10 @@ ul {
 /* -- breakpoint: schermi piccoli, larghezza massima 500 pixel -- */
 
 @media only screen and (max-width: 600px) {
+	header,
+	section {
+		grid-template-columns: 1fr;
+	}
 	.contenitore {
 		width:100%;
 	}
