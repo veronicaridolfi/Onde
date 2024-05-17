@@ -3,7 +3,7 @@
 }
 
 body {
-	background-color: rgb(255, 253, 253); /* white, #FFFFFF */
+	background-color: rgb(rgb(164, 164, 164); /* white, #FFFFFF */
 	padding: 2em;
 	margin: 0;
 	font-family: "Jost", sans-serif;
@@ -22,7 +22,7 @@ p {
 h1 {
 	margin: 0;
 	font-size: 3em;
- color: rgb(255, 0, 0);
+ color: rgb(76, 0, 255);
 }
 
 h4 {
