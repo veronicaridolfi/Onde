@@ -5,4 +5,4 @@ ISIA URBINO
 
 
  [Presentazione](https://veronicaridolfi.github.io/Onde//presentazione/presentazione.html)
-[Ricerca](https://veronicaridolfi.github.io/Onde/ricerca.html)  
+[Ricerca](https://veronicaridolfi.github.io/Onde/ricerca/ricerca.html)  
