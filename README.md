@@ -4,5 +4,5 @@ ISIA URBINO
 2023-2024
 
 
-[Presentazione](https://veronicaridolfi.github/Onde/presentazione.html)  
+[Presentazione](https://github.com/veronicaridolfi/Onde/presentazione.html)  
 [Ricerca](https://veronicaridolfi.github.io/Onde/ricerca.html)  
