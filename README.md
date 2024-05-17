@@ -1,9 +1,8 @@
 # Onde, matematica e musica
+## Marta Favaretto, Veronica Ridolfi
 ISIA URBINO
-Corso: Matematica per il design 
-Anno accademico: 2023-2024
-Marta Favaretto
-Veronica Ridolfi
+ Matematica per il design 
+2023-2024
 
 
 [Presentazione](https://veronicaridolfi.github.io/Onde/presentazione.html)  
