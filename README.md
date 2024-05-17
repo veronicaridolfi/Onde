@@ -1,6 +1,9 @@
 # Onde, matematica e musica
-
-Matematica per il design  
+ISIA URBINO
+Corso: Matematica per il design 
+Anno accademico: 2023-2024
+Marta Favaretto
+Veronica Ridolfi
 
 
 [Presentazione](https://veronicaridolfi.github.io/Onde/presentazione.html)  
