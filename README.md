@@ -1,5 +1,4 @@
 # Onde, matematica e musica
-## Marta Favaretto, Veronica Ridolfi
 ISIA URBINO
  Matematica per il design 
 2023-2024
