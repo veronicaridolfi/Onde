@@ -42,11 +42,11 @@ a{
 	
 }
 iframe {
-	margin-top: 10em;
+	margin-top: 5em;
 	display: block;
 	border: none;
 	width: 100%;	
-	margin-bottom: 10em;
+	margin-bottom: 5em;
 }
 
 
@@ -67,9 +67,6 @@ section {
 	margin-right: 1em;
 }
 
-.contenitore {
-	/* max-width: 54em; */
-}
 
 ul {
 	margin: 0;
