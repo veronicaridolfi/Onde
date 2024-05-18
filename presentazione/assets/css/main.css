@@ -49,9 +49,20 @@ h5{
 
 h6{
 	margin: 0;
-	margin-top: -120em;
-	margin-bottom: 0m;
-	margin-left: 90em;
+	margin-top: -0em;
+	margin-bottom: -50m;
+	margin-left: 10em;
+
+}
+
+h2{
+	margin-bottom: -1em;
+	margin-left: 20em;
+}
+
+h3{
+	
+	margin-bottom: -20em;
 
 }
 
@@ -60,11 +71,11 @@ a{
 	
 }
 iframe {
-	margin-top: 5em;
+	margin-top: 1em;
 	display: block;
 	border: none;
 	width: 100%;	
-	margin-bottom: 5em;
+	margin-bottom: 1em;
 }
 
 
