@@ -3,7 +3,7 @@
 }
 
 body {
-	background-color: rgb(220, 220, 220); /* white, #FFFFFF */
+	background-color: rgb(255, 255, 255); /* white, #FFFFFF */
 	padding: 2em;
 	margin: 0;
 	font-family: "Plus+Jakarta+Sans", sans-serif;
@@ -22,13 +22,13 @@ p {
 h1 {
 	margin: 0;
 	font-size: 3em;
- color: rgb(255, 0, 0);
+ color: rgb(0, 0, 0);
 }
 
 h4 {
 	margin: 0;
 	margin-bottom: 2em;
-	color: rgb(255, 0, 0);
+	color: rgb(0, 0, 0);
 }
 
 
@@ -49,7 +49,7 @@ section {
 
 
 .filetto {
-	border-top: solid 6px rgb(255, 0, 0);
+	border-top: solid 5px rgb(0, 0, 0);
 }
 
 .titolo-sezione {
