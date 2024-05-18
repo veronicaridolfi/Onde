@@ -20,7 +20,7 @@ function setup() {
 }
 
 function draw() {
-  background(220)
+  background(255)
   
   let mx = 10;
 	let my = 2;
