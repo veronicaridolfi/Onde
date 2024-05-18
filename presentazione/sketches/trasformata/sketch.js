@@ -71,9 +71,9 @@ function draw() {
 		const y4 = cos(x * c3f.value() - t * c3o.value()) * c3a.value() 
 		const y3 = y1 + y2 + y4;
 
-		text('freq: ' + c1f.value(), 10,10);
-		text('freq: ' + c2f.value(), 10,130);
-		text('freq: ' + c3f.value(), 10,250);
+		text('freq: ' + c1f.value() + ' hz', 10,10);
+		text('freq: ' + c2f.value() + ' hz', 10,130);
+		text('freq: ' + c3f.value() + ' hz', 10,250);
 
 		text('fase: ' + c1o.value(), 220,10);
 		text('fase: ' + c2o.value(), 220,130);
