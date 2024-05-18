@@ -16,7 +16,7 @@ body {
 
 p {
 	margin: 0 0 1em 0m;
-	max-width: 40em;
+	max-width: 100em;
 	margin-left: 20em;
 }
 
@@ -42,11 +42,13 @@ a{
 	
 }
 iframe {
-	margin: 0;
+	margin-top: 10em;
 	display: block;
 	border: none;
 	width: 100%;	
+	margin-bottom: 10em;
 }
+
 
 header,
 section {
