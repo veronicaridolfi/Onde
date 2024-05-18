@@ -14,7 +14,7 @@ function setup() {
 }
   
   function draw() {
-	background(220);
+	background(255);
 	let a = slider1.value();
 	let b = slider2.value();
   
