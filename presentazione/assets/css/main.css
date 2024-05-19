@@ -1,0 +1,127 @@
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: rgb(255, 255, 255); /* white, #FFFFFF */
+	padding: 2em;
+	margin: 0;
+	font-family: "Plus+Jakarta+Sans", sans-serif;
+	color: rgb(0, 0, 0);
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
+	font-variation-settings: "slnt" 0;
+}
+
+p {
+	margin: 0 0 1em 0m;
+	max-width: 40em;
+	margin-left: 20em;
+}
+
+li {
+	max-width: 40em;
+	margin-left: 20em;
+
+}
+
+h1 {
+	margin: 0;
+	margin-top: 1em;
+	margin-bottom: 0m;
+	margin-left: 7em;
+	font-size: 3em;
+	font-weight: lighter;
+ color: rgb(0, 0, 0);
+}
+
+h4 {
+	margin: 0;
+	margin-bottom: 0em;
+	font-weight: lighter;
+	color: rgb(0, 0, 0);
+}
+h5{
+	margin: 0;
+	margin-top: 1em;
+	margin-bottom: 0m;
+	margin-left: 20em;
+}
+
+h6{
+	margin: 0;
+	margin-top: -0em;
+	margin-bottom: -50m;
+	margin-left: 10em;
+
+}
+
+h2{
+	margin-bottom: -1em;
+	margin-left: 20em;
+}
+
+h3{
+	
+	margin-bottom: -20em;
+
+}
+
+a{
+	color: red;
+	
+}
+iframe {
+	margin-top: 1em;
+	display: block;
+	border: none;
+	width: 100%;	
+	margin-bottom: 1em;
+}
+
+
+
+header,
+section {
+	display: grid;
+	grid-template-columns: 1fr 4r;
+	margin-bottom: 2em;
+	padding-top: 0.25em;
+}
+
+
+.filetto {
+	border-top: solid 5px rgb(0, 0, 0);
+}
+
+.titolo-sezione {
+	margin-right: 1em;
+}
+
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+/* -- breakpoint: schermi piccoli, larghezza massima 500 pixel -- */
+
+@media only screen and (max-width: 600px) {
+	header,
+	section {
+		grid-template-columns: 1fr;
+	}
+	.contenitore {
+		width:100%;
+	}
+	.contenuto-sezione {
+		width: 100%;
+	}
+	.titolo-sezione {
+		width: 100%;
+	}
+	img {
+		width: 100%;
+	}
+}
