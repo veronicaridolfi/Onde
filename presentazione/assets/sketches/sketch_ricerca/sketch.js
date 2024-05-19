@@ -3,7 +3,7 @@ let c2f, c2o, c2a
 let c3f, c3o, c3a
 
 function setup() {
-	createCanvas(windowWidth, windowHeight);
+	createCanvas(windowWidth, 500);
 // //1
 // 	c1f = createSlider(-15, 15, 0, 0.1)
 // 	c1f.position(10, 30)
