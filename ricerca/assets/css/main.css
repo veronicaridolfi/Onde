@@ -24,10 +24,14 @@ li {
 }
 
 h1 {
-	margin: 0;
-	font-size: 3em;
-	color: rgb(0, 0, 0);
+		margin: 0;
+		margin-bottom: 0m;
+		margin-left: 7em;
+		font-weight: lighter;
+		font-size: 3em;
+	 color: rgb(0, 0, 0);
 }
+
 
 h4 {
 	margin: 0;
@@ -80,9 +84,7 @@ ul {
 
 @media only screen and (max-width: 600px) {
 	header,
-	section {
-		grid-template-columns: 1fr;
-	}
+	
 	.contenitore {
 		width:100%;
 	}
