@@ -5,7 +5,7 @@ let c3f, c3o, c3a
 function setup() {
 	createCanvas(windowWidth, windowHeight);
 //1
-	c1f = createSlider(-15, 15, 0, 0.1)
+	c1f = createSlider(0, 400, 0, 0.1)
 	c1f.position(10, 10)
 	c1f.size(200)
 
@@ -18,7 +18,7 @@ function setup() {
 	c1a.size(200)
 
 //2
-	c2f = createSlider(-15, 15, 0, 0.1)
+	c2f = createSlider(0, 400, 0, 0.1)
 	c2f.position(10, 130)
 	c2f.size(200)
 
@@ -30,7 +30,7 @@ function setup() {
 	c2a.position(430, 130)
 	c2a.size(200)
 //3
-	c3f = createSlider(-15,15, 0, 0.1)
+	c3f = createSlider(0,400, 0, 0.1)
 	c3f.position(10, 250)
 	c3f.size(200)
 
@@ -66,9 +66,9 @@ function draw() {
 		const x = map(i, 0, numero_di_punti, -mx, mx);
 		const x_plot = map(x, -mx, mx, 0, width);
 
-		const y1 = sin(x * c1f.value() - t * c1o.value()) * c1a.value();
-		const y2 = sin(x * c2f.value() - t * c2o.value()) * c2a.value();
-		const y4 = cos(x * c3f.value() - t * c3o.value()) * c3a.value() 
+		const y1 = sin(x * c1f.value()*0.01 - t * c1o.value()) * c1a.value();
+		const y2 = sin(x * c2f.value()*0.01 - t * c2o.value()) * c2a.value();
+		const y4 = cos(x * c3f.value()*0.01 - t * c3o.value()) * c3a.value() 
 		const y3 = y1 + y2 + y4;
 
 		text('freq: ' + c1f.value() + ' hz', 10,10);
