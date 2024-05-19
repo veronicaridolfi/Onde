@@ -1,0 +1,100 @@
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: rgb(255, 255, 255); /* white, #FFFFFF */
+	padding: 2em;
+	margin: 0;
+	font-family: "Plus+Jakarta+Sans", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
+	color: rgb(0, 0, 0);
+	font-variation-settings: "slnt" 0;
+}
+
+p {
+	margin: 0 0 4em 0;
+	max-width: 40em;
+}
+
+li {
+	max-width: 40em;
+}
+
+h1 {
+		margin: 0;
+		margin-bottom: 0m;
+		margin-left: 7em;
+		font-weight: lighter;
+		font-size: 3em;
+	 color: rgb(0, 0, 0);
+}
+
+
+h4 {
+	margin: 0;
+	margin-bottom: 1em;
+	color: rgb(0, 0, 0);
+}
+h5{
+	margin: 0;
+	margin-top: -2em;
+	margin-bottom: 0em;
+	font-size: 1em;
+	margin-right: 10em;
+ color: rgba(255, 0, 0, 0.731);
+}
+
+iframe {
+	margin: 0;
+	display: block;
+	border: none;
+	width: 100%;
+}
+a{
+	color: red;
+}
+
+header,
+section {
+	display: grid;
+	grid-template-columns: 1fr 4fr;
+	margin-bottom: 2em;
+	padding-top: 0.25em;
+}
+
+.filetto {
+	border-top: solid 4px rgb(0, 0, 0);
+}
+
+.titolo-sezione {
+	margin-right: 1em;
+}
+
+
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+/* -- breakpoint: schermi piccoli, larghezza massima 500 pixel -- */
+
+@media only screen and (max-width: 600px) {
+	header,
+	
+	.contenitore {
+		width:100%;
+	}
+	.contenuto-sezione {
+		width: 100%;
+	}
+	.titolo-sezione {
+		width: 100%;
+	}
+	img {
+		width: 100%;
+	}
+}
