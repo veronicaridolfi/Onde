@@ -24,11 +24,9 @@ li {
 }
 
 h1 {
-		margin: 0;
-		margin-bottom: 0m;
-		margin-left: 7em;
-		font-weight: lighter;
-		font-size: 3em;
+	font-weight: lighter;
+	font-size: 3em;
+	margin-bottom: -50em;
 	 color: rgb(0, 0, 0);
 }
 
@@ -36,6 +34,7 @@ h1 {
 h4 {
 	margin: 0;
 	margin-bottom: 1em;
+	font-weight: lighter;
 	color: rgb(0, 0, 0);
 }
 h5{
@@ -61,7 +60,6 @@ header,
 section {
 	display: grid;
 	grid-template-columns: 1fr 4fr;
-	margin-bottom: 2em;
 	padding-top: 0.25em;
 }
 
